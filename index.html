@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Blog Website Template</title>
+    <link rel="icon" href="./fav-icon.jpg">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="top">
+
+    </div>
+    <div class="container">
+        <nav>
+            <div class="navbar-left">
+                <img src="./logo.png" alt="logo">
+                <div class="desktop-view">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+                            <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+                          </svg>
+                    </a>
+                </div>
+                <div class="phone-view">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                          </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-right">
+                <div class="btn btn-primary">Edit this site</div>
+            </div>
+        </nav>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#change">Climate Changes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#urban">Urban</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#video">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#letter">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <head>
+        <div class="flex">
+            <div class="search-btn">
+                <input type="text" name="" id="search" placeholder="Search...">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+            </div>
+            <div class="heading">
+                <h2>The Global Morning</h2>
+                <h4>Climate News</h4>
+            </div>
+            <div class="social-links">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </a>
+            </div>
+        </div>
+    </head>
+    <main>
+        <div class="container">
+            <div class="border">
+                <div class="first-col">
+                    <h2><b>Top Stories</b></h2>
+                    <hr style="width: 150px;">
+                    <img src="./amazon-activist.webp" alt="" style="width: 150px;">
+                    <a href="">
+                        <p>
+                        <h3>Amazon Activist</h3>
+                        <h3>Arrested in </h3>
+                        <h3>Capital City</h3>
+                    </p>
+                    <p>
+                        International support for
+                    </p>
+                    <p>
+                        well-known trailblazer
+                    </p>
+                    <p>
+                        continues.
+                    </p>
+                    </a>
+                    <br>
+                    <img src="./Heat-wave.webp" alt="" style="width: 150px;">
+                    <a href="">
+                        <p>
+                            <h3>Heatwave or</h3>
+                            <h3>Unprecedented </h3>
+                            <h3>Highs</h3>
+                        </p>
+                        <p>
+                           Hottest day in South Asia
+                        </p>
+                        <p>
+                            since 1904
+                        </p>
+                    </a>
+                </div>
+                <div class="second-col">
+                    <img src="./Ice.webp" alt="" style="width: 500px;">
+                    <div class="update">
+                        <p>2 days ago <li> 2 mins</li></p>
+                    </div>
+                    <div class="heading">
+                        <a href="">
+                            <h2>
+                                Coastal Cities to be 
+                            </h2>
+                            <h2>
+                                Inundated by 2050
+                            </h2>
+                            <p><b>New report highlight growing danger to countless cities and populations.</b></p>
+                        </a>
+                    </div>
+                </div>
+                <div class="third-col">
+                    <h2><b>Opinion</b></h2>
+                    <hr style="width: 150px;">
+                    <div class="profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg>
+                        <div class="admin">
+                            <p>Admin</p>
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="">
+                        <h3><b>Was It</b></h3>
+                        <h3><b>Inevitable?</b></h3> <br>
+                        <p><b>Non-Profits's marine life</b></p>
+                        <p><b>extinction report is no</b></p>
+                        <p><b>surprise to </b></p>
+                        <p><b>environmentalists.</b></p>
+                        </a>
+                    <br>
+                    <div class="profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg>
+                        <div class="admin">
+                            <p>Admin</p>
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="">
+                        <h3><b>Concrete</b></h3>
+                        <h3><b>Jungle</b></h3> 
+                        <h3><b>can be</b></h3>
+                        <h3><b>made beautiful</b></h3><br>
+                        <p><b>Ecological solutions to</b></p>
+                        <p><b>urban planning are</b></p>
+                        <p><b>sources of continured</b></p>
+                        <p><b>inspiration.</b></p>
+                    </a>
+                    <br>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="new-nav" id="change">
+            <h2><b>Climate Change</b></h2>
+            <div class="btn btn-primary">
+                Read More
+            </div>
+        </div>
+        <div class="pictures">
+            <div class="f-col">
+                    <img src="./Ocean.webp" alt="">
+                <div class="update">
+                    <p>2 days ago <li> 1 mins</li></p>
+                </div>
+                <a href="">
+                    <h3><b>Ocean Sewage Pollution</b></h3>
+                    <h3><b>Persist</b></h3>
+                    <br>
+                    <p>Beachgoers warned </p>
+                    <p>to stay clear of</p>
+                    <p>popular summer</p>
+                </a>
+            </div>
+            <div class="s-col">
+                <img src="./Deep-sea.webp" alt="">
+                <div class="update">
+                    <p>2 days ago <li> 1 mins</li></p>
+                </div>
+                <a href="">
+                    <h3><b>Deep-Sea Sharks Spotted</b></h3>
+                    <h3><b>Near Popular Resort Town</b></h3>
+                    <br>
+                    <p> Scientist fromt he aquatic </p>
+                    <p>Marine Institute Stunned</p>
+                    <p>By New Migration Pattern.</p>
+                </a>
+            </div>
+            <div class="t-col">
+                <img src="./Carbon-tax.webp" alt="">
+                <div class="update">
+                    <p>2 days ago <li> 1 mins</li></p>
+                </div>
+                <a href="">
+                    <h3><b>Carbon Tax Draft Plan</b></h3>
+                    <h3><b>Made Public</b></h3>
+                    <br>
+                    <p>Long-awaited European</p>
+                    <p>Initiative faces tough</p>
+                </a>
+            </div>
+            <div class="fourth-col">
+                <img src="./Forest-ablaze.webp" alt="">
+                <div class="update">
+                    <p>2 days ago <li> 1 mins</li></p>
+                </div>
+                <a href="">
+                    <h3><b>Forest Ablaze as </b></h3>
+                    <h3><b>Residents Evacuated from </b></h3>
+                    <h3><b>Quiet Neighbourhood</b></h3>
+                    <br>
+                    <p>Fires across the country</p>
+                    <p>reflect new era</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="new-nav" id="urban">
+            <h2><b>Urban</b></h2>
+            <div class="btn btn-primary">
+                Read More
+            </div>
+        </div>
+        <div class="urban">
+            <div class="new-f-col">
+                <img src="./rooftop.webp" alt="">
+                <div class="update">
+                    <p>2 days ago <li> 2 mins</li></p>
+                </div>
+                <h3><b>How to convert your rooftop</b></h3>
+                <h3><b>into a garden</b></h3><br>
+                <p>8 simple steps to transorming your home into a small-scale green grocery</p>
+            </div>
+            <div class="new-s-col">
+                <img src="./bridges.webp" alt="">
+                <div class="update">
+                    <p>2 days ago <li> 2 mins</li></p>
+                </div>
+                <h3><b>Make Bridges, Not Walls</b></h3>
+                <br>
+                <p>One small town's planning is inspiring the globe.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="new-nav" id="video">
+            <h2><b>Video</b></h2>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="videos" class="d-block w-100" alt="...">
+                    <div class="col1">
+                        <video src="./Video Of Camels.mp4" controls>Desert</video>
+                        <h5><b>Magnificient Desert or Escalating Drought ?</b></h5>
+                        <p>Landscapes are not always what they seem</p>
+                        <br>
+                    </div>
+                    <div class="col2">
+                        <video src="./pexels-joseph-a-eulo-5286267.mp4" controls>Crisis</video>
+                        <h5><b>Vigil brings to Light Environmental Crisis</b></h5>
+                        <p>Collective expressions of solidarity are the key to long lasting change</p>
+                        <br>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="videos" class="d-block w-100">
+                    <div class="col3">
+                        <video src="./pexels-mikhail-nilov-8318618.mp4" controls>Glacier</video>
+                        <h5><b>Melting Away</b></h5>
+                        <p>Glaciers and rising water levels in our oceans</p>
+                        <br>
+                    </div>
+                    <div class="col4">
+                        <video src="./1000 - One Piece.mkv" controls>One-Piece</video>
+                        <h5><b>One Piece</b></h5>
+                        <p>The Most Trending Anime On Web</p>
+                        <br>
+                    </div>
+                </div>
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <footer>
+        <div class="footer-col" id="letter">
+            <div class="new-footer-col1">
+                <h2><b>Bring Global News</b></h2>
+                <h2><b>Straight to your Inbox</b></h2>
+                <h2><b>Sign Up for Our Weekly</b></h2>
+                <h2><b>Newsletter.</b></h2>
+            </div>
+            <div class="new-footer-col2">
+                <label for="">Email*</label>
+                <div class="footer-flex">
+                    <form action="">
+                        <div class="search-btn">
+                            <input type="email" name="" id="search" placeholder="Email..." required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Submit
+                        </button>
+                    </div><br>
+                    </form>
+                <div class="social-links">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                          </svg>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg>
+                    </a>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="back-to-top">
+            <a href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                  </svg>
+            </a>
+        </div>
+        <p style="text-align: center;"><b>&copy;2022. This article is created by Kaspar Panmei. Resue of Codes without the consent of the owner is punishable.</b></p>
+        <br>
+    </footer>
+</body>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</html>

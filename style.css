@@ -1,0 +1,455 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+/* nav area */
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-left
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-left img,svg
+{
+    cursor: pointer;
+    color: black;
+    width: 60px;
+}
+.navbar-left img, svg:hover
+{
+    color: blue
+}
+.navbar-right .btn
+{
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-delay: 0.2s;
+}
+.navbar-right .btn:hover
+{
+    background-color: rgb(51, 131, 131);
+}
+.navbar
+{
+    background-color: rgba(255, 69, 2, 0.556);
+}
+.navbar ul li
+{
+    display: inline-flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.navbar ul li a
+{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-delay: 0.2s;
+}
+.navbar ul li a:hover
+{
+    color: white;
+}
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(223, 221, 221, 0.284);
+    padding: 10px;
+}
+.search-btn
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#search
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:rgba(255, 253, 253, 0);
+}
+.heading
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.heading h2,h4
+{
+    font-weight: bold;
+    text-align: center;
+}
+.social-links a
+{
+    text-decoration: none;
+}
+.social-links svg
+{
+    width: 80px;
+    margin-right: 20px;
+}
+/* main area */
+main
+{
+    background-color: rgba(223, 221, 221, 0.284);
+}
+.border
+{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 5px;
+    border-radius: 5px;
+}
+.first-col
+{
+    margin: 20px;
+}
+hr
+{
+    padding: 10px;
+}
+.first-col  h3
+{
+    font-weight: bolder;
+}
+.first-col p
+{
+    line-height: 10px;
+}
+.first-col a
+{
+    text-decoration: none;
+    color: black;
+}
+.first-col a:hover
+{
+    color: rgba(193, 83, 83, 0.523);
+}
+.second-col
+{
+    margin-top: 20px;
+}
+.update
+{
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.second-col h2
+{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.second-col a
+{
+    text-decoration: none;
+    color: black;
+}
+.second-col .heading a:hover
+{
+    color: rgba(193, 83, 83, 0.523);
+}
+.third-col
+{
+    margin-top: 20px;
+}
+.profile
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.admin p
+{
+    font-size: 13px;
+}
+.third-col a
+{
+    text-decoration: none;
+    color: black;
+}
+.third-col a:hover
+{
+    color: rgba(193, 83, 83, 0.523);
+}
+.third-col p
+{
+    line-height: 10px;
+}
+.back-to-top
+{
+    display: block;
+}
+.back-to-top svg
+{
+    color: rgb(210, 221, 19);
+}
+/* Section Area */
+section
+{
+    background-color: rgba(223, 221, 221, 0.284);
+}
+.new-nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.new-nav h2
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section .btn
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pictures
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.pictures img
+{
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px;
+}
+.f-col  h3
+{
+    font-weight: bolder;
+}
+.f-col p
+{
+    line-height: 10px;
+}
+.f-col a
+{
+    text-decoration: none;
+    color: black;
+}
+.f-col a:hover
+{
+    color: rgba(193, 83, 83, 0.523);
+}
+.s-col  h3
+{
+    font-weight: bolder;
+}
+.s-col p
+{
+    line-height: 10px;
+}
+.s-col a
+{
+    text-decoration: none;
+    color: black;
+}
+.s-col a:hover
+{
+    color: rgba(193, 83, 83, 0.523);
+}
+.t-col  h3
+{
+    font-weight: bolder;
+}
+.t-col p
+{
+    line-height: 10px;
+}
+.t-col a
+{
+    text-decoration: none;
+    color: black;
+}
+.t-col a:hover
+{
+    color: rgba(193, 83, 83, 0.523);
+}
+.fourth-col h3
+{
+    font-weight: bolder;
+}
+.fourth-col p
+{
+    line-height: 10px;
+}
+.fourth-col a
+{
+    text-decoration: none;
+    color: black;
+}
+.fourth-col a:hover
+{
+    color:rgba(193, 83, 83, 0.523) ;
+}
+.urban
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.urban img
+{
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px;
+}
+.videos
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.videos video
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 450px;
+}
+.carousel-control-prev
+{
+   background-color: rgb(50, 62, 111);
+   height: 50px;
+   width: 50px;
+   margin: auto;
+}
+.carousel-control-next
+{
+    background-color: rgb(50, 62, 111);
+    height: 50px;
+    width: 50px;
+    margin: auto;  
+}
+footer
+{
+    background-color: antiquewhite;
+}
+.footer-col
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+form
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form .btn
+{
+    margin-top: 10px;
+}
+
+/* Media Query */
+@media (min-width:279.98px) and (max-width:445.98px)
+{
+    nav
+    {
+        display: block;
+    }
+    .navbar-right
+    {
+        display: none;
+    }
+    .search-btn
+    {
+        display: block;
+    }
+    .flex
+    {
+        display: block;
+    }
+    .social-links
+    {
+        display: block;
+    }
+    .second-col img
+    {
+        width: 200px !important;
+        margin-left: 25px; 
+    }
+    .update
+    {
+        margin-left: 25px;
+    }
+    .heading h2,h4
+    {
+        font-size: 22px;
+    }
+    .second-col p
+    {
+        font-size: 12px;
+        text-align: center;
+    }
+    .pictures
+    {
+        margin-left: 25px;
+    }
+    .pictures img
+    {
+        width: 250px;
+    }
+    .urban
+    {
+        margin-left: 25px;
+    }
+    .urban img
+    {
+        width: 250px;
+    }
+    .videos
+    {
+        margin-left: 25px;
+    }
+    .videos video
+    {
+        width: 250px;
+    }
+    .footer-col
+    {
+        display: block;
+    }
+    form
+    {
+        display: block;
+    }
+}
